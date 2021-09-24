@@ -29,3 +29,6 @@ ul {
 li {
 	text-align: left;
 }
+.nav-space {
+	padding: 10px 0;
+}
