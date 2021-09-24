@@ -18,6 +18,10 @@ h1 {
 	border-color: white;
 	border-width: 2px;
 }
-ul li {
+ul {
 	display: inline-block;
+	text-align: center;
+}
+li {
+	text-align: left;
 }
