@@ -1,5 +1,9 @@
 header {
 	background-color: black;
+	align-content: center;
+}
+body {
+	align-content: center;
 }
 h1 {
 	color: white;
