@@ -19,5 +19,6 @@ h1 {
 	border-width: 2px;
 }
 ul {
+	display: inline-block;
 	text-align: center;
 }
