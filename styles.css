@@ -18,7 +18,7 @@ h1 {
 	border-color: white;
 	border-width: 2px;
 }
-ul {
+ul li {
 	display: inline-block;
-	text-align: center;
+	text-align: left;
 }
