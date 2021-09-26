@@ -22,9 +22,6 @@ h1 {
 	border-color: white;
 	border-width: 2px;
 }
-.profile .profileTurn:hover {
-	transform: rotate(30)
-}
 ul {
 	display: inline-block;
 	text-align: center;
