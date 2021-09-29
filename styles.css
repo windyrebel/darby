@@ -4,7 +4,7 @@ body {
 header {
 	background-color: black;
 	height: 25vh;
-	overflow: auto;
+	overflow: hidden;
 }
 nav {
 	display: inline-block;
@@ -17,11 +17,7 @@ nav {
 .header-left {
 	float: left;
 	max-width: 50%;
-	padding: 10px;
-}
-.header-right {
-	float: right;
-	max-width: 50%;
+	max-height: 100%;
 	padding: 10px;
 }
 .menu {
