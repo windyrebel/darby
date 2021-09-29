@@ -35,6 +35,8 @@ h1 {
 	border-radius: 50%;
 	border-color: white;
 	border-width: 2px;
+	max-height: 100px;
+	max-width: 100px;
 }
 .profile:hover {
 	transform: rotate(30%)
