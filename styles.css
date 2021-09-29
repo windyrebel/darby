@@ -1,11 +1,24 @@
 header {
 	background-color: black;
-	align-content: center;
-	text-align: center;
+	height: 25vh;
 }
-nav {
-	display: inline-block;
-	font-size: 20px;
+.header-titles {
+	font-size: 3rem;
+}
+.header-left {
+	float: left;
+	max-width: 50%;
+	padding: 10px;
+}
+.header-right {
+	float: right;
+	max-width: 50%;
+	padding: 10px;
+}
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	width: 30px;
 }
 body {
 	align-content: center;
@@ -14,7 +27,7 @@ body {
 h1 {
 	color: white;
 }
-.titles {
+.body-titles {
 	text-transform: capitalize;
 }
 .profile {
@@ -22,15 +35,13 @@ h1 {
 	border-color: white;
 	border-width: 2px;
 }
+.profile:hover {
+	transform: rotate(30%)
+}
 ul {
 	display: inline-block;
 	text-align: center;
 }
 li {
 	text-align: left;
-}
-.nav-space {
-	width: 20px;
-	margin: 0;
-	padding: 20px;
 }
