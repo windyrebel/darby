@@ -1,7 +1,15 @@
+body {
+	text-align: center;
+}
 header {
 	background-color: black;
 	height: 25vh;
 	overflow: auto;
+}
+nav {
+	display: inline-block;
+	max-width: 50%;
+	padding: 10px;
 }
 .header-titles {
 	font-size: 3rem;
@@ -20,10 +28,6 @@ header {
 	display: flex;
 	justify-content: flex-end;
 	width: 30px;
-}
-body {
-	align-content: center;
-	text-align: center;
 }
 h1 {
 	color: white;
