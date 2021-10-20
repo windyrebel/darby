@@ -48,6 +48,9 @@ section {
 	max-height: 100px;
 	max-width: 100px;
 }
+p {
+	padding: 80px 200px 80px;
+}
 ul {
 	display: inline-block;
 	text-align: center;
