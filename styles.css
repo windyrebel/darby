@@ -40,6 +40,10 @@ nav {
 h1 {
 	color: white;
 }
+p {
+	max-width: 700px;
+	margin: auto;
+}
 section {
 	margin: 80px 0;
 }
@@ -47,9 +51,6 @@ section {
 	border-radius: 50%;
 	max-height: 100px;
 	max-width: 100px;
-}
-p {
-	padding: 80px 200px 80px;
 }
 ul {
 	display: inline-block;
@@ -89,7 +90,7 @@ li {
 		bottom: 10px;
 	}
 	p {
-		font-size: 2rem;
+		font-size: 1rem;
 	}
 	.header-titles {
 		font-size: 3.25rem;
