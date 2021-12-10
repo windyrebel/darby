@@ -47,10 +47,10 @@ if ( answerfour === 'Penguin' || answerfour === 'penguin' || answerfour === 'Pen
 
 const answerfive = prompt("Who is the current President of the United States?");
 if ( answerfive === 'Biden' || answerfive === 'biden' || answerfive === 'Joe Biden' || answerfive === 'joe biden') {
-  alert("That's correct!");
+  alert("That's correct! If you had put Trump, I would have questioned your sanity.");
     correctguess += 1;
 } else if ( answerfive === 'Trump' || answerfive === 'trump' || answerfive === 'Donald Trump' || answerfive === 'donald trump') {
-  alert("Seriously? Perhaps foxnews.com is better suited for you. You lose. GOOD DAY!");
+  alert("Seriously? Perhaps foxnews.com is better suited for you. Also, your neighbors might be lizard people and the only way to not be abducted by them is to get the COVID vaccine!");
 } else {
   alert("Nice effort, but that was incorrect.");
 }
