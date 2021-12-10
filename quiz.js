@@ -14,7 +14,7 @@ let rank;
 const main = document.querySelector('main');
 
 const answerone = prompt("What is Luke Skywalker's father's name?");
-if ( answerone === 'Vader' || answerone === 'vader' || answerone === 'Darth Vader' || answerone === 'darth vader') {
+if ( answerone === 'Vader' || answerone === 'vader' || answerone === 'Darth Vader' || answerone === 'darth vader' || answerone === 'Anakin' || answerone === 'anakin' || answerone === 'Anakin Skywalker' || answerone === 'anakin skywalker') {
   alert("That's correct!");
   correctguess += 1;
 } else {
@@ -74,4 +74,4 @@ if ( correctguess === 5 ) {
 
 
 // Output results to the <main> element
-main.innerHTML = `<p>Your score = ${correctguess}.</p></br></br><h1>You earned the ${rank} crown!</h1>`
+main.innerHTML = `<h2>Your score = ${correctguess}.</h2></br></br><h1>You earned the ${rank} crown!</h1>`
