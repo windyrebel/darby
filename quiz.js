@@ -14,7 +14,7 @@ let rank;
 const main = document.querySelector('main');
 
 const answerone = prompt("What is Luke Skywalker's father's name?");
-if ( answerone === 'Vader' || answerone === 'vader' || answerone === 'Darth Vader' || answerone === 'darth vader' || answerone === 'Anakin' || answerone === 'anakin' || answerone === 'Anakin Skywalker' || answerone === 'anakin skywalker') {
+if ( answerone === 'Vader' || answerone === 'vader' || answerone === 'Vader ' || answerone === 'vader ' || answerone === 'Darth Vader' || answerone === 'darth vader' || answerone === 'Darth Vader ' || answerone === 'darth vader ' || answerone === 'Anakin' || answerone === 'anakin' || answerone === 'Anakin ' || answerone === 'anakin ' || answerone === 'Anakin Skywalker' || answerone === 'anakin skywalker' ||  answerone === 'Anakin Skywalker ' || answerone === 'anakin skywalker ') {
   alert("That's correct!");
   correctguess += 1;
 } else {
@@ -22,7 +22,7 @@ if ( answerone === 'Vader' || answerone === 'vader' || answerone === 'Darth Vade
 }
 
 const answertwo = prompt("What race is Gimli from Lord of the Rings?");
-if ( answertwo === 'Dwarf' || answertwo === 'dwarf') {
+if ( answertwo === 'Dwarf' || answertwo === 'dwarf' || answertwo === 'Dwarf ' || answertwo === 'dwarf ') {
   alert("That's correct!");
   correctguess += 1;
 } else {
@@ -30,7 +30,7 @@ if ( answertwo === 'Dwarf' || answertwo === 'dwarf') {
 }
 
 const answerthree = prompt("What is Steve Rogers' superhero name?");
-if ( answerthree === 'Captain America' || answerthree === 'captain america' || answerthree === 'Cap' || answerthree === 'cap' || answerthree === 'Cpt America' || answerthree === 'cpt america' || answerthree === 'Capt America' || answerthree === 'capt america') {
+if ( answerthree === 'Captain America' || answerthree === 'captain america' || answerthree === 'Captain America ' || answerthree === 'captain america ' || answerthree === 'Cap' || answerthree === 'cap' || answerthree === 'Cap ' || answerthree === 'cap ' || answerthree === 'Cpt America' || answerthree === 'cpt america' || answerthree === 'Cpt America ' || answerthree === 'cpt america ' ||  answerthree === 'Capt America' || answerthree === 'capt america' ||   answerthree === 'Capt America ' || answerthree === 'capt america ') {
   alert("That's correct!");
     correctguess += 1;
 } else {
@@ -38,7 +38,7 @@ if ( answerthree === 'Captain America' || answerthree === 'captain america' || a
 }
 
 const answerfour = prompt("What animal is the mascot of Pittsburgh's hockey team?");
-if ( answerfour === 'Penguin' || answerfour === 'penguin' || answerfour === 'Penguins' || answerfour === 'penguins') {
+if ( answerfour === 'Penguin' || answerfour === 'penguin' || answerfour === 'Penguin ' || answerfour === 'penguin ' || answerfour === 'Penguins' || answerfour === 'penguins' || answerfour === 'Penguins ' || answerfour === 'penguins ') {
   alert("That's correct!");
     correctguess += 1;
 } else {
@@ -46,10 +46,10 @@ if ( answerfour === 'Penguin' || answerfour === 'penguin' || answerfour === 'Pen
 }
 
 const answerfive = prompt("Who is the current President of the United States?");
-if ( answerfive === 'Biden' || answerfive === 'biden' || answerfive === 'Joe Biden' || answerfive === 'joe biden') {
+if ( answerfive === 'Biden' || answerfive === 'biden' || answerfive === 'Biden ' || answerfive === 'biden ' || answerfive === 'Joe Biden' || answerfive === 'joe biden' || answerfive === 'Joe Biden ' || answerfive === 'joe biden ') {
   alert("That's correct! If you had put Trump, I would have questioned your sanity.");
     correctguess += 1;
-} else if ( answerfive === 'Trump' || answerfive === 'trump' || answerfive === 'Donald Trump' || answerfive === 'donald trump') {
+} else if ( answerfive === 'Trump' || answerfive === 'trump' || answerfive === 'Trump ' || answerfive === 'trump ' || answerfive === 'Donald Trump' || answerfive === 'donald trump' || answerfive === 'Donald Trump ' || answerfive === 'donald trump ') {
   alert("Seriously? Perhaps foxnews.com is better suited for you. Also, your neighbors might be lizard people and the only way to not be abducted by them is to get the COVID vaccine!");
 } else {
   alert("Nice effort, but that was incorrect.");
@@ -74,4 +74,4 @@ if ( correctguess === 5 ) {
 
 
 // Output results to the <main> element
-main.innerHTML = `<h2>Your score = ${correctguess}.</h2></br></br><h1>You earned the ${rank} crown!</h1>`
+main.innerHTML = `<h2>Your score = ${correctguess}.</h2></br></br><h1>You earned the ${rank} crown!</h1></br></br><p><a href="https://windyrebel.github.io/darby/quiz">Re-take the quiz!</a></p></br></br><p><a href="https://windyrebel.github.io/darby">Home</a></p>`
